@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style type="text/css">
+        
+        body{
+
+            margin: 0px;
+        }
+        .header{
+            width: 100%;
+            height: 100px;
+            
+            
+
+        }
+        .logo{ width: 100;height: 100px;  float: left;}
+        .ortala{
+            background-color: white;
+            width: 90%;
+            height: 100px;
+            text-align: center;
+            margin: auto;
+            
+            
+
+        }
+        .image{
+            width: 100px;
+            height: 100px;
+        }
+        .menu{
+            width: 40%;
+            height: 50px;
+           float: right;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        .menu ul{ list-style-type: none;}
+        .menu ul li{ float: left;}
+        .menu ul li a{ text-decoration: none; color: darkslateblue;
+              display: block; padding: 25px; padding-top: 30px; transition: transform 0.3s ease;}
+        .menu ul li a:hover{ color: orange; transform: scale(1.1);}   
+
+
+        .kare1 {
+            width: 400px;
+            height:1000px;
+            margin-left: 200px;
+            margin-top: 50px;
+           
+            float: left;
+        }
+
+        .k1, .k2, .k3, .k4 {
+            width: 600px;
+            height: 250px;
+            margin-top: 20px;
+            position: relative;
+        }
+
+        .foto {
+            width: 350px;
+            height: 250px;
+            float: left;
+        }
+
+        .yazı1 {
+            float: left;
+            font-size: 25px;
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+
+        .satinal-btn {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+        .cızgı{ width: 100%; height: 50px; background-color: aqua; float: left;}
+        </style>
+        
+        <div class="header">
+
+            <div class="ortala">
+    
+                <a href="index.html">
+                    <div class="logo"><img class="image" src="indir.jpg "></div>
+                </a>
+                
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="scotter.html">Scooters</a></li>
+                    <li><a href="fiyatl.html">Fiyat Listesi</a></li>
+                    <li><a href="sepet.html">Sepet</a></li>
+    
+    
+                </ul>
+                </div>
+                </div> 
+             </div>
+
+             <div class="kare1">
+
+                <div class="k1"><a href="deneme.html">
+                    <div class="foto"><img src="m1.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">Yamaha R1M<br><br><p style="color: red;">856.000  TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('Yamaha R1M')">Satın Al</button>
+                </div>
+
+                <div class="k1"><a href="deneme1.html">
+                    <div class="foto"><img src="m2.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">Yamaha R7<br><br><p style="color: red;">865.000  TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('Yamaha R7')">Satın Al</button>
+                </div>
+
+
+                <div class="k1"><a href="deneme2.html">
+                    <div class="foto"><img src="m3.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">Yamaha XSR900 GP<br><br><p style="color: red;">758.000  TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('Yamaha XSR900 GP')">Satın Al</button>
+                </div>
+
+
+                <div class="k1"><a href="deneme3.html">
+                    <div class="foto"><img src="m4.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">Yamaha XSR900 <br><br><p style="color: red;">888.000  TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('Yamaha XSR900')">Satın Al</button>
+                </div>
+
+                <div class="k1"><a href="deneme4.html">
+                    <div class="foto"><img src="m5.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">Yamaha MT-10 SP
+                        <br><br><p style="color: red;">920.000 TL TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('Yamaha MT-10 SP')">Satın Al</button>
+                </div>
+                <div class="k2"><a href="sct1.html">
+                    <div class="foto"><img src="s1.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1"> NMAX 155<br><br><p style="color: red;">520.000  TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('NMAX 155')">Satın Al</button>
+                </div>
+                <div class="k3"><a href="sct2.html">
+                    <div class="foto"><img src="s2.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">Tricity 300<br><br><p style="color: red;">660.000  TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('Tricity 300')">Satın Al</button>
+                </div>
+                <div class="k4">
+                    <a href="sct3.html">
+                    <div class="foto"><img src="s3.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">TMAX Tech MAX<br><br><p style="color: red;">369.000 TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('TMAX Tech MAX')">Satın Al</button>
+                </div>
+            </div>
+
+            
+
+
+            
+
+            
+
+
+
+
+
+            <!-- sağ taraf -->
+            <div class="kare1">
+
+                
+
+                <div class="k1"><a href="deneme5.html">
+                    <div class="foto"><img src="m6.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">
+                        Yamaha MT-10 <br><br><p style="color: red;">500.000 TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('Yamaha MT-10')">Satın Al</button>
+                </div>
+
+                <div class="k1"><a href="deneme6.html">
+                    <div class="foto"><img src="m7.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">
+                        Yamaha MT-09<br><br><p style="color: red;">800.000 TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('Yamaha MT-09')">Satın Al</button>
+                </div>
+
+
+                <div class="k1"><a href="deneme7.html">
+                    <div class="foto"><img src="m8.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">
+                        Yamaha MT-07 Pure<br><br><p style="color: red;">750.000 TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('Yamaha MT-07 Pure')">Satın Al</button>
+                </div>
+                <div class="k2"><a href="deneme8.html">
+                    <div class="foto"><img src="m9.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">Yamaha R1 World GP<br><br><p style="color: red;">1.000.000 TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('Yamaha R1 World GP')">Satın Al</button>
+                </div>
+                <div class="k3"><a href="sct6.html">
+                    <div class="foto"><img src="s6.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">TMAX Tech MAX X<br><br><p style="color: red;">453.000 TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('TMAX Tech MAX X')">Satın Al</button>
+                </div>
+                <div class="k1">
+                    <a href="sct4.html">
+                    <div class="foto"><img src="s4.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">XMAX 250 Tech MAX<br><br><p style="color: red;">682.000 TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('XMAX 250 Tech MAX')">Satın Al</button>
+                </div>
+                <div class="k1">
+                    <a href="sct5.html">
+                    <div class="foto"><img src="s5.jpg" width="350" height="250"></div></a>
+                    <div class="yazı1">XMAX 250<br><br><p style="color: red;">	496.000 TL</p></div>
+                    <button class="satinal-btn" onclick="bildirimGoster('XMAX 250')">Satın Al</button>
+                </div>
+                
+                
+                
+               
+
+               
+        
+            <script>
+                function bildirimGoster(arabaModeli) {
+                    alert(arabaModeli + " satın alma işlemi onaylandı! Hayırlı Olsun");
+                }
+            </script>
+
+            
+            
+             
+           
+    
+
+</body>
+</html>
